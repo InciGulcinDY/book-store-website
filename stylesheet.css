@@ -1,0 +1,161 @@
+/*General Specification*/
+body{
+    background-color:#F7F6F2 ;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B6587;
+}
+a{
+    text-decoration: none;
+    color: #4B6587;
+}
+
+/*Header-> Specification*/
+header{
+    height: auto;
+}
+#logo{
+    height: 150px;
+    width: auto;
+}
+#header{
+    background-color: #F0E5CF;
+    display: flex;
+}
+.header-choice{
+    flex:1;
+}
+
+/*Section(index.html)-> Specification*/
+section{
+    height: auto;
+}
+.favourite-title{
+    font-size: 20px;
+   
+}
+#section-image{
+    width:20em;
+    height: auto;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+#title-section{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    background-color: #F0E5CF;
+}
+.favourite-section{
+    display: flex;
+}
+.favourite{
+  display: inline-block;
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color:black;
+}
+
+.fav-image{
+    height: auto;
+    width: 250px;
+}
+
+/*Article(index.html)-> Specification*/
+#articles-title{
+    font-size: 3em;
+    background-color: #F0E5CF;
+}
+ article{
+    color: black;
+    height: auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.article-part{
+    display: inline-block;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;   
+}
+.article-image{
+    width:300px;
+    height: auto;
+} 
+.article-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F0E5CF;
+}
+.article-para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+/*Footer-> Specification*/
+footer{
+    margin-bottom: 50px;
+}
+#footer-image{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+
+}
+#copyright{
+    font-size: 15px;
+}
+/*Section(books.html)-> Specification*/
+.add-button{
+    background-color: #C8C6C6;
+    border-color: #C8C6C6;
+    color: #4B6587;
+}
+/*Section(blogs.html)-> Specification*/
+#blog-page-entery{
+    display: flex;
+}
+#blog-page-entery-image{
+    width:300px;
+}
+.blog-section1{
+  
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+.blog-section2{
+   display: flex;
+
+}
+.social-media{
+    display: inline-block;
+    flex: 1;
+
+}
+.blog-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.otherlogos{
+    width: 100px;
+    height: auto;
+}
+#social-media{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+/*Section(contact.html)-> Specification*/
+#contact-section{
+    margin-bottom: 30px;
+}
+#contact-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.sub-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
